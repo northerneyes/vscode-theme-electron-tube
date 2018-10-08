@@ -1,0 +1,22 @@
+{
+  "name": "theme-vacuum-tube",
+  "displayName": "Vacuum tube",
+  "version": "1.0.0",
+  "publisher": "northerneyes",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vacuum tube",
+        "uiTheme": "vs-dark",
+        "path": "./theme/vacuum-tube-color-theme.json"
+      }
+    ]
+  }
+}
