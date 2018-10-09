@@ -106,14 +106,13 @@
         "constant.character",
         "constant.keyword",
         "constant.language",
-        "support.constant",
         "constant.other.color",
         "constant.other.symbol",
         "keyword.other.unit",
         "constant"
       ],
       "settings": {
-        "foreground": "#d48be0"
+        "foreground": "#f1a5ab"
       }
     }
   ],
