@@ -25,22 +25,17 @@
       }
     },
     {
-      "name": "Numbers, Characters",
-      "scope": [
-        "constant.numeric",
-        "constant.character",
-        "constant.keyword",
-        "constant"
-      ],
+      "name": "Global definitions",
+      "scope": ["entity.name", "support.function"],
       "settings": {
-        "foreground": "#b5cea8"
+        "foreground": "#DCDCAA"
       }
     },
     {
-      "name": "Global definitions",
-      "scope": "entity.name",
+      "name": "comparison",
+      "scope": ["keyword.operator.comparison", "keyword.operator.relational"],
       "settings": {
-        "foreground": "#DCDCAA"
+        "foreground": "#f1a5ab"
       }
     },
     {
@@ -54,7 +49,7 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "foreground": "#ffd6d6"
+        "foreground": "#f44747"
       }
     },
     {
@@ -82,10 +77,43 @@
       }
     },
     {
-      "name": "Control flow keywords",
-      "scope": "keyword.control",
+      "name": "Types declaration and references",
+      "scope": [
+        "entity.name.type",
+        // color of the property name in json/css
+        // "support.type.vendored.property-name",
+        // "support.type.property-name",
+        // and color of other types in type defenition, for example
+        "support.type",
+        "keyword.control",
+        "keyword.operator.typeof",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.cast",
+        "keyword.operator.sizeof",
+        "keyword.operator.instanceof",
+        "constant.language",
+        "storage"
+      ],
       "settings": {
-        "foreground": "#98749d"
+        "foreground": "#8c8c8c"
+      }
+    },
+    {
+      "name": "Numbers, Characters",
+      "scope": [
+        "constant.numeric",
+        "constant.character",
+        "constant.keyword",
+        "constant.language",
+        "support.constant",
+        "constant.other.color",
+        "constant.other.symbol",
+        "keyword.other.unit",
+        "constant"
+      ],
+      "settings": {
+        "foreground": "#d48be0"
       }
     }
   ],
