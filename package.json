@@ -1,6 +1,6 @@
 {
-  "name": "theme-vacuum-tube",
-  "displayName": "Vacuum tube",
+  "name": "theme-electron-tube",
+  "displayName": "Electron tube",
   "version": "1.0.0",
   "publisher": "northerneyes",
   "license": "MIT",
@@ -13,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vacuum tube",
+        "label": "Electron tube",
         "uiTheme": "vs-dark",
-        "path": "./theme/vacuum-tube-color-theme.json"
+        "path": "./theme/electron-tube-color-theme.json"
       }
     ]
   }
