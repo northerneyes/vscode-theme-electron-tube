@@ -140,6 +140,9 @@
     "list.focusBackground": "#373637",
     "list.activeSelectionBackground": "#6f6e6f",
     "pickerGroup.foreground": "#CCCCCC",
-    "pickerGroup.border": "#CCCCCC"
+    "pickerGroup.border": "#CCCCCC",
+    "editorLink.activeForeground": "#db8921",
+    "textLink.activeForeground": "#db8921",
+    "textLink.foreground": "#db8921"
   }
 }
